@@ -82,10 +82,10 @@ input {
     margin-top: .25rem;
   }
 
-  &[:required] + .error {
+  &[required] + .error {
     display: flex;
     align-items: center;
-    gap: 1.25rem;
+    gap: .25rem;
 
     font: var(--text-sm);
     color: var(--semantic-error);
